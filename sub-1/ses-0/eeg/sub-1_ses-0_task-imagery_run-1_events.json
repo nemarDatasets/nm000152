@@ -1,0 +1,41 @@
+{
+	"onset": {
+		"Description": "Onset (in seconds) of the event from the beginning of the first datapoint. Negative onsets account for events before the first stored data point.",
+		"Units": "s"
+	},
+	"duration": {
+		"Description": "Duration of the event in seconds from onset. Must be zero, positive, or 'n/a' if unavailable. A zero value indicates an impulse event. ",
+		"Units": "s"
+	},
+	"sample": {
+		"Description": "The event onset time in number of sampling points.First sample is 0."
+	},
+	"value": {
+		"Description": "The event code (also known as trigger code or event ID) associated with the event."
+	},
+	"trial_type": {
+		"Description": "The type, category, or name of the event.",
+		"HED": {
+			"rest": "Sensory-event, Experimental-stimulus, Visual-presentation, Rest",
+			"elbow_flexion": "Sensory-event, (Label/elbow_flexion)",
+			"drawer": "Sensory-event, (Label/drawer)",
+			"soup": "Sensory-event, (Label/soup)",
+			"weight_lifting": "Sensory-event, (Label/weight_lifting)",
+			"door": "Sensory-event, (Label/door)",
+			"plate_cleaning": "Sensory-event, (Label/plate_cleaning)",
+			"combing": "Sensory-event, (Label/combing)",
+			"pizza_cutting": "Sensory-event, (Label/pizza_cutting)",
+			"pick_and_place": "Sensory-event, (Label/pick_and_place)"
+		}
+	},
+	"Description": "Event annotations for imagery task (combing, door, drawer, elbow_flexion, pick_and_place, pizza_cutting, plate_cleaning, rest, soup, weight_lifting).",
+	"StimulusPresentation": {
+		"SoftwareName": "BCI2000 (Stimulus Presentation mode)",
+		"StimulusType": "picture cues",
+		"StimulusModalities": [
+			"visual"
+		],
+		"PrimaryModality": "visual",
+		"Environment": "laboratory"
+	}
+}

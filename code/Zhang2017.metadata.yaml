@@ -1,0 +1,195 @@
+_dataset:
+  class: Zhang2017
+  code: Zhang2017
+  doi: 10.1371/journal.pone.0188293
+  interval:
+  - 0
+  - 4
+  n_subjects: 12
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 17
+  filters:
+    bandpass:
+    - 0.1
+    - 40
+  ground: COM
+  hardware: EGI Geodesic Net Amps 400 series (N400)
+  line_freq: 60.0
+  n_channels: 17
+  reference: Cz
+  sampling_rate: 1000.0
+  sensor_type: Ag/AgCl sponge
+  software: BCI2000 (Stimulus Presentation mode)
+bci_application:
+  applications:
+  - motor_control
+  - rehabilitation
+  environment: laboratory
+cross_validation:
+  cv_folds: 5
+  cv_method: 5x5-fold
+  evaluation_type:
+  - within_subject
+data_structure:
+  n_trials: 330
+  trials_context: '15 runs of 24 trials each (4 rest + 4 elbow + 2 each of 8 goal tasks). Total: 60 rest + 30 per MI task
+    = 330.'
+documentation:
+  country: CA
+  data_url: https://doi.org/10.6084/m9.figshare.5579461.v1
+  doi: 10.1371/journal.pone.0188293
+  institution: Simon Fraser University
+  institution_department: School of Engineering Science
+  investigators:
+  - Xin Zhang
+  - Xinyi Yong
+  - Carlo Menon
+  keywords:
+  - motor imagery
+  - upper limb
+  - elbow
+  - BCI
+  - EEG
+  - kinesthetic imagery
+  license: CC BY 4.0
+  publication_year: 2017
+  repository: Figshare
+  senior_author: Carlo Menon
+experiment:
+  class_labels:
+  - rest
+  - elbow_flexion
+  - drawer
+  - soup
+  - weight_lifting
+  - door
+  - plate_cleaning
+  - combing
+  - pizza_cutting
+  - pick_and_place
+  events:
+    combing: 8
+    door: 6
+    drawer: 3
+    elbow_flexion: 2
+    pick_and_place: 10
+    pizza_cutting: 9
+    plate_cleaning: 7
+    rest: 1
+    soup: 4
+    weight_lifting: 5
+  feedback_type: none
+  instructions: Participants were asked to repetitively perform the kinesthetic motor imagery task displayed on the screen
+    without actually moving.
+  mode: offline
+  n_classes: 10
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: picture cues
+  study_design: 'Upper-limb elbow-centered motor imagery with 9 goal-directed tasks plus rest. Each trial: 4-6 s cue (randomized)
+    then 4-6 s rest (randomized).'
+  synchronicity: synchronous
+  trial_duration: 5.0
+file_format: BCI2000
+paradigm_specific:
+  cue_duration_s: 5.0
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 5.0
+  imagery_tasks:
+  - elbow_flexion
+  - drawer
+  - soup
+  - weight_lifting
+  - door
+  - plate_cleaning
+  - combing
+  - pizza_cutting
+  - pick_and_place
+participants:
+  age_max: 33
+  age_min: 20
+  ages:
+  - 27
+  - 31
+  - 21
+  - 30
+  - 26
+  - 20
+  - 33
+  - 23
+  - 33
+  - 28
+  - 24
+  - 21
+  bci_experience: naive
+  gender:
+    female: 2
+    male: 10
+  handedness:
+    left: 1
+    right: 11
+  handedness_list:
+  - right
+  - right
+  - right
+  - right
+  - left
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  health_status: healthy
+  n_subjects: 12
+  sexes:
+  - male
+  - female
+  - male
+  - male
+  - male
+  - male
+  - male
+  - male
+  - female
+  - male
+  - male
+  - male
+  species: human
+preprocessing:
+  data_state: raw
+runs_per_session: 15
+sessions_per_subject: 1
+signal_processing:
+  classifiers:
+  - LDA
+  - DAL
+  feature_extraction:
+  - bandpower
+  - CSP
+  - FBCSP
+  frequency_bands:
+    bandpass:
+    - 6.0
+    - 35.0
+    beta:
+    - 13.0
+    - 30.0
+    mu:
+    - 7.0
+    - 13.0
+  spatial_filters:
+  - CSP
+  - FBCSP
+tags:
+  modality:
+  - Motor
+  pathology:
+  - Healthy
+  type:
+  - Research

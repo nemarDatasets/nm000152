@@ -1,0 +1,39 @@
+{
+	"TaskName": "imagery",
+	"Manufacturer": "Electrical Geodesics",
+	"PowerLineFrequency": 60.0,
+	"SamplingFrequency": 1000.0,
+	"SoftwareFilters": "n/a",
+	"RecordingDuration": 184.599,
+	"RecordingType": "continuous",
+	"EEGReference": "Cz",
+	"EEGGround": "COM",
+	"EEGPlacementScheme": "n/a",
+	"EEGChannelCount": 17,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "EGI Geodesic Net Amps 400 series (N400)",
+	"SoftwareVersions": "BCI2000 (Stimulus Presentation mode)",
+	"HardwareFilters": {
+		"HardwareFilter": {
+			"bandpass": [
+				0.1,
+				40
+			]
+		}
+	},
+	"TaskDescription": "Upper-limb elbow-centered motor imagery with 9 goal-directed tasks plus rest. Each trial: 4-6 s cue (randomized) then 4-6 s rest (randomized). Trial duration: 5.0s, cue: 5.0s, imagery: 5.0s.",
+	"Instructions": "Participants were asked to repetitively perform the kinesthetic motor imagery task displayed on the screen without actually moving.",
+	"CogAtlasID": "https://www.cognitiveatlas.org/task/id/trm_4c8a834779883/",
+	"InstitutionName": "Simon Fraser University",
+	"InstitutionAddress": "CA",
+	"InstitutionalDepartmentName": "School of Engineering Science",
+	"CapManufacturer": "n/a",
+	"CapManufacturersModelName": "n/a",
+	"SubjectArtefactDescription": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"Description": "EEG recording.",
+	"MISCChannelCount": 0
+}
