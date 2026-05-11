@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000152-blue)](https://doi.org/10.82901/nemar.nm000152)
+
 # Upper-limb elbow-centered motor imagery dataset (10 classes)
 
 Upper-limb elbow-centered motor imagery dataset (10 classes).
