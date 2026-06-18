@@ -1,0 +1,88 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Xin Zhang": {
+      "orcid": "0000-0001-7623-5787"
+    },
+    "Xinyi Yong": {},
+    "Carlo Menon": {
+      "orcid": "0000-0002-2309-9977"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1371/journal.pone.0188293",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.5579461.v1",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000152",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000152",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Upper-limb elbow-centered motor imagery dataset (10 classes)",
+  "license": "CC BY 4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "1.7 GB (183 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".html",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This dataset comprises EEG recordings from 12 healthy participants performing upper-limb motor imagery tasks centered on elbow movements. Participants executed kinesthetic imagery of nine goal-directed tasks (drawer opening, soup preparation, weight lifting, door opening, plate cleaning, combing, pizza cutting, and pick-and-place operations) plus rest, cued by visual stimuli. The dataset contains 330 trials recorded at 1000 Hz using 17 EEG channels and is designed for brain-computer interface (BCI) research and motor imagery classification studies.",
+  "methods_description": "EEG data were acquired from 12 healthy participants (10 male, 2 female; age 20-33 years) using an EGI Geodesic Net Amps 400 series amplifier with 17 Ag/AgCl sponge electrodes referenced to Cz. Sampling rate was 1000 Hz with online bandpass filtering (0.1-40 Hz). Participants performed kinesthetic motor imagery of nine goal-directed upper-limb tasks plus rest, cued by visual pictures. Each trial consisted of a 4-6 s randomized cue period followed by 4-6 s rest. Data were collected in 15 runs of 24 trials each (60 rest trials and 30 trials per motor imagery task), recorded using BCI2000 software in stimulus presentation mode.",
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "upper limb"
+    },
+    {
+      "term": "kinesthetic imagery"
+    },
+    {
+      "term": "motor control"
+    }
+  ],
+  "source_hash": "87ce1bb3b86092bac2cc2e07c84033d9855f421b61b590d480f4cb56f82a571a"
+}
