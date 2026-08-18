@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Upper-limb elbow-centered motor imagery dataset (10 classes)",
-  "description": "This dataset comprises EEG recordings from 12 healthy participants performing upper-limb motor imagery tasks centered on elbow movements. Participants executed kinesthetic imagery of nine goal-directed tasks (elbow flexion, drawer opening, soup preparation, weight lifting, door opening, plate cleaning, combing, pizza cutting, and pick-and-place) plus rest, cued by visual stimuli. The dataset contains 330 trials recorded at 1000 Hz using 17 EEG channels and is intended for brain-computer interface research and motor imagery classification studies.",
-  "methods_description": "EEG data were acquired from 12 naive participants using an EGI Geodesic Net Amps 400 series amplifier with 17 Ag/AgCl sponge electrodes sampled at 1000 Hz. Online bandpass filtering (0.1-40 Hz) was applied during acquisition. The experimental paradigm consisted of 15 runs per subject, each containing 24 trials (4 rest + 4 elbow flexion + 2 each of 8 goal-directed tasks). Each trial included a 4-6 s randomized visual cue presentation followed by 4-6 s of rest. Participants performed kinesthetic motor imagery without actual movement.",
+  "description": "This dataset comprises EEG recordings from 12 healthy participants performing upper-limb motor imagery tasks centered on elbow movements. Participants executed kinesthetic imagery of nine goal-directed tasks (drawer opening, soup preparation, weight lifting, door opening, plate cleaning, combing, pizza cutting, and pick-and-place operations) plus rest, cued by visual stimuli. The dataset contains 330 trials recorded at 1000 Hz using 17 EEG channels and is intended for brain-computer interface (BCI) research and motor control applications.",
+  "methods_description": "EEG data were acquired from 12 healthy participants (10 male, 2 female; age 20-33 years) using an EGI Geodesic Net Amps 400 series amplifier with 17 Ag/AgCl sponge electrodes referenced to Cz. Sampling rate was 1000 Hz with online bandpass filtering (0.1-40 Hz) and 60 Hz line frequency notch filtering. Participants performed motor imagery tasks in response to visual picture cues presented in 15 runs of 24 trials each (4 s cue followed by 4-6 s rest periods, randomized). No feedback was provided during the offline paradigm.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -85,5 +85,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "456f06563368d71e94a9376bd765caed2170bbdcbb9289924fa5a69eac999f22"
+  "source_hash": "a8bfba5c06e2e09e7a395eaab8b8437125cc7dd488eebbf1ec3c8e7cfd6eeec5"
 }
