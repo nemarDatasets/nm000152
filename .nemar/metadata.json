@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Upper-limb elbow-centered motor imagery dataset (10 classes)",
-  "description": "This dataset comprises EEG recordings from 12 healthy participants performing upper-limb motor imagery tasks centered on elbow movements. Participants executed kinesthetic imagery of nine goal-directed tasks (drawer opening, soup preparation, weight lifting, door opening, plate cleaning, combing, pizza cutting, and pick-and-place operations) plus rest, cued by visual stimuli. The dataset contains 330 trials recorded at 1000 Hz using 17 EEG channels and is intended for brain-computer interface (BCI) research and motor control applications.",
-  "methods_description": "EEG data were acquired from 12 healthy participants (10 male, 2 female; age 20-33 years) using an EGI Geodesic Net Amps 400 series amplifier with 17 Ag/AgCl sponge electrodes referenced to Cz. Sampling rate was 1000 Hz with online bandpass filtering (0.1-40 Hz) and 60 Hz line frequency notch filtering. Participants performed motor imagery tasks in response to visual picture cues presented in 15 runs of 24 trials each (4 s cue followed by 4-6 s rest periods, randomized). No feedback was provided during the offline paradigm.",
+  "description": "An EEG dataset of upper-limb, elbow-centered kinesthetic motor imagery from 12 healthy, BCI-naive participants. Each participant imagined nine goal-directed tasks (e.g., elbow flexion, drawer opening, soup eating, weight lifting, combing) plus rest, giving 10 classes. EEG was recorded from 17 channels at 1000 Hz with BCI2000 and picture cues. The dataset supports the evaluation of motor imagery decoding models and BCI-based rehabilitation research.",
+  "methods_description": "EEG was recorded with an EGI Geodesic Net Amps 400 series system (17 channels, Ag/AgCl sponge electrodes, Cz reference, 1000 Hz sampling rate, 0.1-40 Hz online bandpass) using BCI2000 in Stimulus Presentation mode. Each session had 15 runs of 24 trials, with picture cues displayed for 4-6 s and randomized rest periods of 4-6 s. Participants repetitively performed kinesthetic motor imagery of the cued task without actual movement.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -17,22 +17,27 @@
   },
   "keywords": [
     {
-      "term": "motor imagery"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interface"
     },
     {
       "term": "upper limb"
     },
     {
+      "term": "elbow"
+    },
+    {
       "term": "kinesthetic imagery"
     },
     {
-      "term": "motor control"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -44,7 +49,7 @@
     {
       "identifier": "10.6084/m9.figshare.5579461.v1",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDerivedFrom"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000152",
@@ -73,7 +78,7 @@
     "eeg"
   ],
   "sizes": [
-    "4.5 GB (363 files)"
+    "4.18 GB (363 files)"
   ],
   "formats": [
     ".bdf",
