@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Upper-limb elbow-centered motor imagery dataset (10 classes)",
-  "description": "An EEG dataset of upper-limb, elbow-centered kinesthetic motor imagery from 12 healthy, BCI-naive participants. Each participant imagined nine goal-directed tasks (e.g., elbow flexion, drawer opening, soup eating, weight lifting, combing) plus rest, giving 10 classes. EEG was recorded from 17 channels at 1000 Hz with BCI2000 and picture cues. The dataset supports the evaluation of motor imagery decoding models and BCI-based rehabilitation research.",
-  "methods_description": "EEG was recorded with an EGI Geodesic Net Amps 400 series system (17 channels, Ag/AgCl sponge electrodes, Cz reference, 1000 Hz sampling rate, 0.1-40 Hz online bandpass) using BCI2000 in Stimulus Presentation mode. Each session had 15 runs of 24 trials, with picture cues displayed for 4-6 s and randomized rest periods of 4-6 s. Participants repetitively performed kinesthetic motor imagery of the cued task without actual movement.",
+  "description": "EEG recordings from 12 healthy, BCI-naive participants performing kinesthetic motor imagery of upper-limb, elbow-centered tasks. The paradigm has 10 classes: rest, elbow flexion, and eight goal-directed daily-living tasks such as drawer opening, soup eating, weight lifting and combing. Data were recorded with a 17-channel EGI system at 1000 Hz. The dataset supports research on the versatility of EEG models for motor-imagery BCI control and rehabilitation.",
+  "methods_description": "EEG was recorded with an EGI Geodesic Net Amps 400 series amplifier (17 channels, Ag/AgCl sponge electrodes, Cz reference, 1000 Hz sampling, 0.1-40 Hz online bandpass). Stimuli were presented with BCI2000. Each participant completed 15 runs of 24 trials, with picture cues followed by kinesthetic motor imagery and randomized rest periods of 4-6 s.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -33,11 +33,6 @@
     },
     {
       "term": "kinesthetic imagery"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
